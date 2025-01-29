@@ -3,15 +3,15 @@
 # Calculate result from given numbers
 RESULT=$(./Calculation_of_three_number.sh 3 2 7)
 
-echo"The result : $RESULT"
+echo "The result : $RESULT"
 
 #Expected result
 if [[ $RESULT -eq -2 ]]; then
 
-echo "Result is -2"
+echo "Sucess"
 
 else
 
-echo " error "
+echo " Fail "
 
 fi

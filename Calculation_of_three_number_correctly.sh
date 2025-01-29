@@ -10,4 +10,8 @@ if [[ $RESULT -eq -2 ]]; then
 
 echo "Result is -2"
 
+else
+
+echo " error "
+
 fi
